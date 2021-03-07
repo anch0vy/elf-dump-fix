@@ -31,7 +31,7 @@ jobs:
           cd app/jni/
           ndk-build
 
-      - name: Publish package
+      - name: Publish packages
         uses: actions/upload-artifact@v2
         with:
           name: app
